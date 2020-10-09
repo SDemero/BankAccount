@@ -1,0 +1,366 @@
+ 
+		Contestants in the Database
+
+Name	       SSN	    Account   Balance  Account Type  CD Date
+
+ Iman Shimpert	588-05-8004  1342      787.97	Checking       N/A
+ 
+ Archer Demero	718-62-5923  7366     2003.26     CD        4/8/2021
+ 
+ London Tipton	660-16-5311  2345      343.22	Savings       N/A
+ 
+ Gaven Thomas	721-52-0691  1234     3893.34     CD        4/8/2021
+ 
+ Faith Armero	421-38-7731  3456     2000.48	Savings       N/A
+ 
+ Samuel DAngelo	366-56-5584  1026      523.00	Checking       N/A
+ 
+ Shadrac Alcine	851-64-2446  5523     2326.03     CD        10/8/2021
+ 
+ Zachery Falls	261-44-6076  9287      298.00     CD        10/8/2022
+ 
+ Adonis Creed	129-86-2968  5837     9403.30	Savings       N/A
+ 
+ Faith Armero	421-38-7731  1200       49.99	Checking       N/A
+ 
+ Nadia Archer	495-64-6938  1382     5920.24	Checking       N/A
+ 
+ Janea Solani	129-56-7122  4059        0.00	Checking       N/A
+ 
+ Nova Demero	248-24-6421  5966      200.50	Checking       N/A
+ 
+Total amount in Savings accounts $ 11747.00
+Total amount in Checking accounts $ 7481.70
+Total amount in CD accounts $ 8520.63
+Total amount in all Account $ 27749.33
+ 
+Transaction Type: Balance
+ Account Number: 1234
+Balance $3893.34
+ 
+Transaction Type: Balance
+ Account Number: 9249
+Failure Reason: Invalid account number
+ 
+Transaction Type: Deposit
+ Account Number: 1342
+Amount to Deposit $ 100.0
+Old Balance $787.97
+New Balance $887.97
+ 
+Transaction Type: Deposit
+ Account Number: 5837
+Failure Reason: Invalid Deposit amount
+ 
+Transaction Type: Deposit
+ Account Number: 7366
+Amount to Deposit $ 1000.26
+Old Balance $2003.26
+New Balance $3003.52
+New Maturity Date is 10/8/2021
+ 
+Transaction Type: Deposit
+ Account Number: 9287
+Failure Reason: Maturity date not yet reached
+ 
+Transaction Type: Deposit
+ Account Number: 2948
+Failure Reason: Account does not exist
+ 
+Transaction Type: Withdrawal
+ Account Number: 9287
+Failure Reason: Maturity date not yet reached
+ 
+Transaction Type: Withdrawal
+ Account Number: 1382
+Failure Reason: Invalid Withdrawal amount
+ 
+Transaction Type: Withdrawal
+ Account Number: 3456
+Amount to Withdrawal $ 20.0
+Old Balance $2000.48
+ Fail reason: Did not fail
+New Balance $2000.48
+ 
+Transaction Type: Withdrawal
+ Account Number: 2928
+Failure Reason: Account does not exist
+ 
+Transaction Type: Withdrawal
+ Account Number: 1234
+Failure Reason: Maturity date not yet reached
+ 
+Transaction Type: Withdrawal
+ Account Number: 9287
+Failure Reason: Insufficient Funds
+ 
+Transaction Type:New Account
+Account Number: 4444
+Initial Balance $400.0
+Account created
+
+Transaction Type:New Account
+Account Number: 5555
+Initial Balance $200.0
+Account created
+
+Transaction Type:New Account
+Account Number: 7777
+Initial Balance $30.0
+Account created
+
+Transaction Type:New Account
+Failure Reason: Account already exist
+ 
+Transaction Type: Deposit
+ Account Number: 4444
+Amount to Deposit $ 1000.0
+Old Balance $400.0
+New Balance $1400.0
+ 
+Transaction Type: Deposit
+ Account Number: 5555
+Amount to Deposit $ 500.0
+Old Balance $200.0
+New Balance $700.0
+ 
+Transaction Type: Deposit
+ Account Number: 7777
+Failure Reason: Maturity date not yet reached
+ 
+Transaction Type: Withdrawal
+ Account Number: 5555
+Failure Reason: Insufficient Funds
+ 
+Invalid selection
+
+Transaction Type: Withdrawal
+ Account Number: 4444
+Failure Reason: Insufficient Funds
+ 
+Transaction Type: Balance
+ Account Number: 5555
+Balance $200.0
+ 
+Transaction Type: Delete Account
+Account Number: 4059
+Account deleted
+
+Transaction Type: Delete Account
+Account Number: 5837
+Failure reason: Account still has balance
+ 
+Transaction Type: Withdrawal
+ Account Number: 5837
+Amount to Withdrawal $ 9403.3
+Old Balance $9403.3
+ Fail reason: Did not fail
+New Balance $9403.3
+ 
+Transaction Type: Delete Account
+Account Number: 5837
+Failure reason: Account still has balance
+ 
+Transaction Type: Delete Account
+Account Number: 4930
+Failure reason: Account doesn't exist
+ 
+Invalid selection
+
+Transaction Type: Balance
+ Account Number: 1026
+Balance $523.0
+ 
+Invalid selection
+
+Transaction Type: Account Info
+ 
+Faith Armero	421-38-7731	3456	   2000.48	   Savings 
+Faith Armero	421-38-7731	1200	     49.99	   Checking 
+2 accounts found
+
+Transaction Type: Account Info
+Social Security Number: XXX-XX-3420
+No accounts match this information
+
+Transaction Type: Clear Check
+Account Number: 1026
+Failure reason: Check has expired
+ 
+Transaction Type: Deposit
+ Account Number: 1200
+Amount to Deposit $ 300.0
+Old Balance $49.99
+New Balance $349.99
+ 
+Transaction Type: Withdrawal
+ Account Number: 1200
+Failure Reason: Insufficient Funds
+ 
+Transaction Type: Deposit
+ Account Number: 3456
+Amount to Deposit $ 234.0
+Old Balance $2000.48
+New Balance $2234.48
+ 
+Transaction Type: Withdrawal
+ Account Number: 1200
+Failure Reason: Insufficient Funds
+ 
+Transaction Type: Account Info
+
+Faith Armero	421-38-7731	3456	        2000.48	   Savings
+Transaction History
+
+Transaction Type: Withdrawal
+ Account Number: 3456
+Amount to Withdrawal $ 20.0
+Old Balance $2000.48
+ Fail reason: Did not fail
+New Balance $2000.48
+
+Transaction Type: Deposit
+ Account Number: 3456
+Amount to Deposit $ 234.0
+Old Balance $2000.48
+New Balance $2234.48
+
+Faith Armero	421-38-7731	1200	          49.99	   Checking
+Transaction History
+
+Transaction Type: Deposit
+ Account Number: 1200
+Amount to Deposit $ 300.0
+Old Balance $49.99
+New Balance $349.99
+
+Transaction Type: Withdrawal
+ Account Number: 1200
+Failure Reason: Insufficient Funds
+
+Transaction Type: Withdrawal
+ Account Number: 1200
+Failure Reason: Insufficient Funds
+ 
+2 accounts found
+
+Transaction Type: Account Info
+Social Security Number: XXX-XX-4245
+No accounts match this information
+
+Transaction Type: Clear Check
+Account Number: 4444
+Failure reason: Check has expired
+ 
+Transaction Type: Clear Check
+Account Number: 6332
+Failure reason: Account Doesn't exist
+ 
+Transaction Type: Clear Check
+Account Number: 1342
+Failure reason: Check has expired
+ 
+Transaction Type: Clear Check
+Account Number: 1342
+Failure reason: Check has expired
+ 
+Transaction Type: Close Account
+Account Number: 5966
+Account Status: closed
+ 
+Transaction Type: Close Account
+Account Number: 3922
+Failure Reason: Account does not exist
+ 
+Transaction Type: Close Account
+Account Number: 5966
+Account Status: closed
+ 
+Transaction Type: Withdrawal
+ Account Number: 5966
+Amount to Withdrawal $ 100.25
+Old Balance $200.5
+ Fail reason: Did not fail
+Account charged 1.50 for low balance
+New Balance $98.75
+ 
+Transaction Type: Deposit
+ Account Number: 5966
+Amount to Deposit $ 100.25
+Old Balance $200.5
+New Balance $300.75
+ 
+Transaction Type: Reopen Account
+Account Number: 5966
+Failure Reason: Account is already open
+ 
+Transaction Type: Reopen Account
+Account Number: 2428
+Failure Reason: Account does not exist
+ 
+Transaction Type: Deposit
+ Account Number: 5966
+Amount to Deposit $ 100.25
+Old Balance $200.5
+New Balance $300.75
+ 
+Transaction Type: Withdrawal
+ Account Number: 5966
+Amount to Withdrawal $ 100.25
+Old Balance $200.5
+ Fail reason: Did not fail
+Account charged 1.50 for low balance
+New Balance $98.75
+ 
+Transaction Type: Reopen Account
+Account Number: 5966
+Failure Reason: Account is already open
+ 
+Transaction Type: Withdrawal
+ Account Number: 4444
+Amount to Withdrawal $ 12.5
+Old Balance $400.0
+ Fail reason: Did not fail
+Account charged 1.50 for low balance
+New Balance $386.0
+ 
+ 
+		Contestants in the Database
+
+Name	       SSN	    Account   Balance  Account Type  CD Date
+
+ Iman Shimpert	588-05-8004  1342      787.97	Checking       N/A
+ 
+ Archer Demero	718-62-5923  7366     2003.26     CD        4/8/2021
+ 
+ London Tipton	660-16-5311  2345      343.22	Savings       N/A
+ 
+ Gaven Thomas	721-52-0691  1234     3893.34     CD        4/8/2021
+ 
+ Faith Armero	421-38-7731  3456     2000.48	Savings       N/A
+ 
+ Samuel DAngelo	366-56-5584  1026      523.00	Checking       N/A
+ 
+ Shadrac Alcine	851-64-2446  5523     2326.03     CD        10/8/2021
+ 
+ Zachery Falls	261-44-6076  9287      298.00     CD        10/8/2022
+ 
+ Adonis Creed	129-86-2968  5837     9403.30	Savings       N/A
+ 
+ Faith Armero	421-38-7731  1200       49.99	Checking       N/A
+ 
+ Nadia Archer	495-64-6938  1382     5920.24	Checking       N/A
+ 
+ Nova Demero	248-24-6421  5966      200.50	Checking       N/A
+ 
+ Tiny Smith	568-95-8954  4444      400.00	Checking       N/A
+ 
+ Jordan Gordan	783-06-8504  5555      200.00	Savings       N/A
+ 
+ Glock Steph	302-30-5039  7777       30.00     CD        3/8/2022
+ 
+Total amount in Savings accounts $ 3257.70
+Total amount in Checking accounts $ 9482.20
+Total amount in CD accounts $ 9337.89
+Total amount in all Account $ 22077.79
+ 
